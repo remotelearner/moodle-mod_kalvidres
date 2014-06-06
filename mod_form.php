@@ -447,13 +447,6 @@ class mod_kalvidres_mod_form extends moodleform_mod {
         return $output;
     }
 
-    private function get_default_video_properties() {
-        return $properties = array('vid_prop_player' => 4674741,
-                                   'vid_prop_dimensions' => 0,
-                                   'vid_prop_size' => 0,
-                                  );
-    }
-
     function definition_after_data() {
         $mform = $this->_form;
 

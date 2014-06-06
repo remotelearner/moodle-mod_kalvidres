@@ -34,8 +34,6 @@ class mod_kalvidres_renderer extends plugin_renderer_base {
         $output = '';
 
         $attr = array('for' => 'video_name');
-//        $output .= html_writer::tag('label', get_string('vid_prop_name', 'kalvidres'), $attr);
-//        $output .= '&nbsp;';
 
         $output .= html_writer::start_tag('b');
         $output .= html_writer::div($title);
